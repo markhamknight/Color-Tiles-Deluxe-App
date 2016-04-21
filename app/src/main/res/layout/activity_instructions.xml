@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.android.colortilesdeluxe.Instructions">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:background="@drawable/okay"
+            android:id="@+id/icon"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:text="Okay"
+            android:onClick="playNow"
+            android:layout_toRightOf="@+id/icon"
+            android:background="@android:color/white"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

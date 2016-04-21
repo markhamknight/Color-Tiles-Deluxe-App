@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CTD</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_mainmenu">mainmenu</string>
+
+    <string name="title_activity_main__menu">Main_Menu</string>
+
+    <string name="title_activity_home__screen">Home_Screen</string>
+
+    <string name="title_activity_game__proper">Game_Proper</string>
+
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="instructions">At every start of the game, a 3x3 tile grid will be generated.
+        Each tile on the grid has its own color. You will be given time to memorize the color on each tile.
+        After the given time, the colors on the tile will jumble. Your objective is to try and remember all the color pattern previously shown.
+        Tapping the tile will change its color. Good Luck!
+    </string>
+
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="title_activity_highscore">Highscore</string>
+</resources>

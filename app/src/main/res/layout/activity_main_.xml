@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.android.colortilesdeluxe.Main_Activity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fitsSystemWindows="true">
+
+        <TextView
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="5sp"
+            android:id="@+id/topleft"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:background="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/topright"
+            android:layout_marginBottom="5sp"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_toRightOf="@id/topleft"
+            android:background="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/bottomleft"
+            android:layout_marginRight="5sp"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_alignLeft="@+id/topleft"
+            android:layout_alignStart="@+id/topleft"
+            android:layout_below="@+id/topleft"
+            android:background="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/bottomright"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_below="@id/topleft"
+            android:background="@android:color/white"
+            android:layout_toRightOf="@id/topleft"
+            />
+
+
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/loading"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:textAlignment="inherit"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="LOADING" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
